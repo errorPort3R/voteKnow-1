@@ -51,6 +51,7 @@ public class Bill
     @Enumerated(EnumType.ORDINAL)
     private Level level;
 
+    @ManyToOne
     private ArrayList<Amendment> amendments;
 
     public Bill()
