@@ -19,6 +19,9 @@ public class VoteKnowRestController
     @Autowired
     BillRepository bills;
 
+    public static final String RAW_DATA_FILE_LOCATION = "rawFile.dat";
+    public static final String SORTED_DATA_FILE_LOCATION = "builtData.dat";
+
 
     //***************************************************************************************
     //
